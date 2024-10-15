@@ -1,0 +1,161 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2c084d;
+    color: #ffffff;
+   
+}
+#logo{
+    width: 70px;
+    height: 90px;
+}
+
+nav{
+  background-color: #010341;
+  position: fixed;
+}
+
+
+ul li a {
+    position: relative;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    right: 200px;
+    
+}
+.navbar {
+    position:fixed;
+    width:100%;
+    z-index:2;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.ensemble{
+    padding-top: 70px;
+}
+.profil img{
+ position: relative;
+ left: 140vh;
+ height: 450px;
+ margin-top: 60px;
+ z-index: 1;
+ 
+}
+
+
+#cercle{
+    height: 320px;
+    width: 320px;
+    background-color: #ffffff;
+    position: relative;
+    left: 139vh;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+     bottom: 290px;
+     z-index: 0;
+   }
+
+ 
+
+#mur{
+    height: 55px;
+    width: 200px;
+    background-color: #ffffff;
+    position: relative;
+    left: 145vh;
+  border-bottom-left-radius: 60px;
+    bottom: 370px;
+    z-index: 1;
+}
+
+
+.metier{
+    position: absolute;
+    top: 350px;
+    left: 20vh;
+
+}
+
+.metier h1{
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+h5{
+    background-color:orange ;
+    width:200px;
+    border-radius: 10px;
+    /* font-size: 23px; */
+    height: 30px;
+text-align: center;
+}
+
+.metier p {
+    font-weight: bold;
+    color: #f58b02;
+    font-size: 30px;
+
+}
+
+.ii{
+    display: flex;
+    gap: 20px;
+    width: 35px;
+    margin: 10px;
+}
+
+#apropos {
+    bottom :30 px;
+}
+
+section{
+   margin-top: 100px;
+}
+
+/* section h2 {
+   
+    margin-bottom: 10px;
+} */
+
+#logo{
+    max-width: 100px;
+    /* height: 90px; */
+}
+
+#titre{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    margin-bottom: 40px;
+    padding-top: 30px;
+}
+
+#apropos{
+    padding: 35px;
+}
+
+#man1 img{
+    width: 300px;
+    border-radius: 15px;
+    height: 350px;
+}
+
+.card {
+    background-color: #340a60;
+    border: none;
+}
+
+.card-title, .card-text {
+    color: #f58b02;
+}
+
+footer {
+    background-color: #240637;
+    color: #ffffff;
+}
